@@ -1,4 +1,4 @@
-const CACHE_VERSION = "2024-08-26 1:00 PM";
+const CACHE_VERSION = "2024-08-26 1:10 PM";
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

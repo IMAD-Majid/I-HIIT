@@ -1,8 +1,8 @@
 const gifPath = {
-    "Push-ups": "demos/push-up.gif",
-    Squats: "demos/squat.gif",
-    // Burpees: "demos/burpee.gif",
-    // Lunges: "demos/lunges.gif",
+    "Push-ups": "gif/push-up.gif",
+    Squats: "gif/squat.gif",
+    // Burpees: "gif/burpee.gif",
+    // Lunges: "gif/lunges.gif",
     // Plank: "png/plank.png",
 };
 
