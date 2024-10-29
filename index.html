@@ -3,47 +3,39 @@
     <head>
         <title>IHIIT</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="font.css" />
         <link rel="stylesheet" href="style.css" />
-        <link rel="manifest" href="manifest.json" />
         <link rel="icon" type="image/png" href="icon.png" />
-    </head>
+    	<link href="app.webmanifest" rel="manifest" />
+		<script src="register-sw.js"></script>
+	</head>
 
     <body>
-        <div id="progress-container">
+        <div id="progress-container" class="hidden">
             <span id="progress"></span>
         </div>
-        <div id="workout-ui" class="hidden">
+        <main class="hidden">
             <span id="name"></span>
-            <img
-                id="workout-gif"
-                class="hidden"
-            />
+            <!-- <div id="workout-gif" class="hidden"></div> -->
+            <img id="workout-gif" class="hidden" />
             <span id="timer"></span>
+        </main>
+
+        <div
+            id="trainer"
+            style="background-image: url('png/power pose.png')"
+        ></div>
+        <button>MORE</button>
+
+        <div id="sign" class="hidden">
+            <a href="https://github.com/ssiyo" target="_blank"> by ssiyo </a>
+            <a href="https://github.com/ssiyo/ihiit/issues/new" target="_blank">
+                feature request
+            </a>
+            <a href="https://github.com/ssiyo/ihiit" target="_blank">
+                codebase
+            </a>
         </div>
-        <button>
-          <img src="png/power pose.png">
-          MORE
-        </button>
-
-        <script>
-            if ("serviceWorker" in navigator) {
-                navigator.serviceWorker
-                    .register("/sw.js")
-                    .then((registration) => {
-                        console.log(
-                            "Service Worker registered with scope:",
-                            registration.scope
-                        );
-                    })
-                    .catch((error) => {
-                        console.error(
-                            "Service Worker registration failed:",
-                            error
-                        );
-                    });
-            }
-        </script>
-
         <script src="main.js"></script>
     </body>
 </html>
