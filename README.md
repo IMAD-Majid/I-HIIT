@@ -1,4 +1,4 @@
-# IHIIT
+# <img src="https://github.com/ssiyo/ihiit/blob/main/icon.png" width="36px" style="display:inline-block"> IHIIT
 
 HIIT workout instructor.
 

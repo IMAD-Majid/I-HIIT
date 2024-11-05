@@ -1,4 +1,4 @@
-const CACHE_VERSION = "2024-10-31 01:34";
+const CACHE_VERSION = "2024-11-05 12:03";
 localStorage.setItem("CACHE_VERSION", CACHE_VERSION)
 
 // cache files list

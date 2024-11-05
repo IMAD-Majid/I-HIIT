@@ -65,7 +65,7 @@ function nextExercise() {
                 else roundRest();
             } else {
                 progressDiv.classList.add("completed");
-                progressElm.textContent = "trainning completed";
+                progressElm.textContent = "training completed";
 
                 workoutElm.classList.toggle("hidden");
                 exerciseGifElm.classList.toggle("hidden");
