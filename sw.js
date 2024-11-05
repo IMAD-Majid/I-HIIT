@@ -1,5 +1,4 @@
-const CACHE_VERSION = "2024-11-05 12:03";
-localStorage.setItem("CACHE_VERSION", CACHE_VERSION)
+const CACHE_VERSION = "2024-11-05 12:49";
 
 // cache files list
 const cf = [
@@ -7,8 +6,8 @@ const cf = [
 	"/font.css",
 	"/style.css",
 
-	"/gif/push-up.gif",
-	"/gif/squat.gif",
+	"gif/push-up.gif",
+	"gif/squat.gif",
 
 	"/index.html",
 
@@ -17,13 +16,13 @@ const cf = [
 	"/sw.js",
 
 	"/icon.png",
-	"/png/power pose.png",
-	"/png/rest.png",
-	"/png/round.png",
+	"png/power pose.png",
+	"png/rest.png",
+	"png/round.png",
 
-	"/fonts/RobotoMono-Bold.ttf",
-	"/fonts/RobotoMono-Italic.ttf",
-	"/fonts/RobotoMono-Light.ttf",
+	"fonts/RobotoMono-Bold.ttf",
+	"fonts/RobotoMono-Italic.ttf",
+	"fonts/RobotoMono-Light.ttf",
 
 	"/app.webmanifest",
 
